@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--light-color);
   cursor: pointer;
   text-decoration: none;
 }
