@@ -9,6 +9,7 @@ import { DashboardPageComponent } from './dashboard-page/dashboard-page.componen
 import { CreatePageComponent } from './create-page/create-page.component';
 import { EditPageComponent } from './edit-page/edit-page.component';
 import {SharedModule} from '../shared/shared.module';
+import {AuthService} from './shared/services/auth.service';
 
 
 
@@ -32,6 +33,6 @@ import {SharedModule} from '../shared/shared.module';
     ])
   ],
   exports: [RouterModule],
-  providers: [AdminModule]
+  providers: [AuthService]
 })
 export class AdminModule { }
