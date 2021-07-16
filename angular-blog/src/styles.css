@@ -272,7 +272,7 @@ table th {
   margin-bottom: 1rem;
 }
 
-navbar-main {
+.navbar-main {
    justify-content: center;
    border-bottom: 1px solid var(--dark-color);
  }
@@ -288,10 +288,11 @@ li.active a {
 }
 
 a {
-  color: #dc3545;
+  color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
+
 .navbar-a:hover {
    color: var(--light-color);
  }
